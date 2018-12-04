@@ -4,7 +4,7 @@ fabric = {}
 
 with open('./data.txt', 'r') as ffile:
     data = ffile.read().strip().split('\n')
-    for row_num, data_row in enumerate(data):
+    for data_row in data:
         parts = data_row.split('@')
         parts2 = parts[1].split(':')
         left, top = parts2[0].split(',')
@@ -13,7 +13,6 @@ with open('./data.txt', 'r') as ffile:
         height = int(height)
         left = int(left)
         top = int(top)
-        # print('Row number: ', row_num)
         for width_shift in range(width):
             for height_shift in range(height):
                 coord_x = left + width_shift + 1
