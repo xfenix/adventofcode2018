@@ -1,3 +1,4 @@
+# https://adventofcode.com/2018/day/1
 result = 0
 freq_list = [result, ]
 
