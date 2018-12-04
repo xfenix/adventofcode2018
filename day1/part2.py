@@ -11,6 +11,7 @@ with open('./data.txt', 'r') as advfile:
         print('.', end='', flush=True)
         for item in data:
             result += eval(item)
+            # completes on 140 step
             if result in freq_list:
                 print('Yeah: ', result)
                 sys.exit(0)
