@@ -22,5 +22,4 @@ with open('./data.txt', 'r') as advfile:
             if char_index is not None:
                 result.append((item, subitem, char_index, item[char_index]))
 
-
 print(result)
