@@ -27,5 +27,5 @@ while True:
     if previous_len == len(step_result):
         # after 1360 steps...
         print('')
-        print(''.join(step_result))
+        print(len(step_result))
         break
