@@ -1,3 +1,4 @@
+# https://adventofcode.com/2018/day/4#part2
 from datetime import datetime
 from collections import defaultdict
 
