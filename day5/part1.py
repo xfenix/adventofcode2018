@@ -1,3 +1,4 @@
+# https://adventofcode.com/2018/day/5
 def calc_polymer_reaction(polymer_list):
     total_len = len(polymer_list)
     new_polymer = []
