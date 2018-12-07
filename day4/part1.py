@@ -1,6 +1,5 @@
 # https://adventofcode.com/2018/day/4
 from datetime import datetime
-from collections import Counter
 
 
 EVENT_START = 0
