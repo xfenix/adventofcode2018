@@ -3,7 +3,6 @@ from collections import defaultdict
 
 
 lines = [line.strip() for line in open('./data.txt', 'r').readlines()]
-
 coords = set()
 max_x = max_y = 0
 for line in lines:
